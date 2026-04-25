@@ -25,7 +25,7 @@
  |          EMPLOYEE               |
  |---------------------------------|
  | ID | NAME	| SALARY | DEPT_ID |
- |---------------------------------|
+ |----|---------|--------|---------|
  | 1  | Candice	| 4685	 | 1       |
  | 2  | Julia	| 2559	 | 2       |
  | 3  | Bob	    | 4405	 | 4       |
@@ -35,6 +35,7 @@
  | DEPARTMENT                  |
  |-----------------------------|
  | ID | NAME	   | LOCATION  |
+ |----|------------|-----------|
  | 1  | Executive  | Sydney    |
  | 2  | Production | Sydney    |
  | 3  | Resources  | Cape Town |
