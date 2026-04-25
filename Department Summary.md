@@ -19,25 +19,23 @@ DEPARTMENT
  | LOCATION | String  | Department location                  |
 
 # Sample Data Tables
-  EMPLOYEE
- |---------------------------------|
- | ID | NAME	| SALARY | DEPT_ID |
+EMPLOYEE
+ | ID | NAME    | SALARY | DEPT_ID |
  |----|---------|--------|---------|
- | 1  | Candice	| 4685	 | 1       |
- | 2  | Julia	| 2559	 | 2       |
- | 3  | Bob	    | 4405	 | 4       |
- | 4  | Scarlet	| 2350	 | 1       |
- | 5  | Ileana	| 1151	 | 4       |
- 
-   DEPARTMENT
- |-----------------------------|
- | ID | NAME	   | LOCATION  |
- |----|------------|-----------|
- | 1  | Executive  | Sydney    |
- | 2  | Production | Sydney    |
- | 3  | Resources  | Cape Town |
- | 4  | Technical  | Texas     |
- | 5  | Management | Paris     |
+ | 1  | Candice | 4685   | 1       |
+ | 2  | Julia   | 2559   | 2       |
+ | 3  | Bob     | 4405   | 4       |
+ | 4  | Scarlet | 2350   | 1       |
+ | 5  | Ileana  | 1151   | 4       |
+
+DEPARTMENT
+ | ID | NAME        | LOCATION  |
+ |----|-------------|-----------|
+ | 1  | Executive   | Sydney    |
+ | 2  | Production  | Sydney    |
+ | 3  | Resources   | Cape Town |
+ | 4  | Technical   | Texas     |
+ | 5  | Management  | Paris     |
  
 # Sample Output
     Executive 2
@@ -55,20 +53,19 @@ DEPARTMENT
     order by employee_count desc, d.name asc;
 
 # Your Output (stdout) 
- +----------------------+----------------+
+Employee Count by Department
  | name                 | employee_count |
- +----------------------+----------------+
- | Product              |            132 |
- | Engineering          |            129 |
- | Legal                |            127 |
- | Sales                |            126 |
- | Recruitment          |            123 |
- | Finance              |            122 |
- | Research&Development |            122 |
- | Operations           |            119 |
- | Human Resources      |              0 |
- | Marketing            |              0 |
- +----------------------+----------------+
+ |----------------------|----------------|
+ | Product              | 132            |
+ | Engineering          | 129            |
+ | Legal                | 127            |
+ | Sales                | 126            |
+ | Recruitment          | 123            |
+ | Finance              | 122            |
+ | Research&Development | 122            |
+ | Operations           | 119            |
+ | Human Resources      | 0              |
+ | Marketing            | 0              |
 
 # Result
     The query is correct. Hidden test case passed.
