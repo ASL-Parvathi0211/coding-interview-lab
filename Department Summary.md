@@ -6,14 +6,17 @@
  |              EMPLOYEE                                                                 |
  |---------------------------------------------------------------------------------------|
  | Name	   | Type	  | Description                                                      |
+ |---------|----------|------------------------------------------------------------------|
  | ID	   | Integer  | Employee ID number. This is a primary key.                       |
  | NAME    | String   | Employee name                                                    |
  | SALARY  | Integer  | Employee salary                                                  |
  | DEPT_ID | Integer  |	ID of the employee's department, a foreign key to DEPARTMENT.ID. |
+ |---------------------------------------------------------------------------------------|
 
  |              DEPARTMENT                                     |
  |-------------------------------------------------------------|
  | Name      | 	Type   | Description                           |
+ |-----------|---------|---------------------------------------|
  | ID	     | Integer | Department ID. This is a primary key. |
  | NAME	     | String  | Department name.                      |
  | LOCATION	 |String   | Department location.                  |
