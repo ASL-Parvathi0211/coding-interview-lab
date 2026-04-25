@@ -3,8 +3,7 @@
  Given two tables, Employee and Department, generate a summary of how many employees are in each department. Each department should be listed, whether they currently have any employees or not. The results should be sorted from high to low by number of employees, and then alphabetically by department when departments have the same number of employees. The results should list the department name followed by the employee count. The column names are not tested, so use whatever is appropriate.
 
 # Schema
- |---------------------------------------------------------------------------------------|
- |              EMPLOYEE                                                                 |
+   EMPLOYEE
  |---------------------------------------------------------------------------------------|
  | Name	   | Type	  | Description                                                      |
  |---------|----------|------------------------------------------------------------------|
@@ -14,7 +13,7 @@
  | DEPT_ID | Integer  |	ID of the employee's department, a foreign key to DEPARTMENT.ID  |
  
 
- |              DEPARTMENT                                     |
+   DEPARTMENT
  |-------------------------------------------------------------|
  | Name      | 	Type   | Description                           |
  |-----------|---------|---------------------------------------|
@@ -23,7 +22,7 @@
  | LOCATION	 |String   | Department location                   |
 
 # Sample Data Tables
- |          EMPLOYEE               |
+  EMPLOYEE
  |---------------------------------|
  | ID | NAME	| SALARY | DEPT_ID |
  |----|---------|--------|---------|
@@ -33,7 +32,7 @@
  | 4  | Scarlet	| 2350	 | 1       |
  | 5  | Ileana	| 1151	 | 4       |
  
- | DEPARTMENT                  |
+   DEPARTMENT
  |-----------------------------|
  | ID | NAME	   | LOCATION  |
  |----|------------|-----------|
