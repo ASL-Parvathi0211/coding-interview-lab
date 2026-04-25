@@ -19,7 +19,8 @@
  | LOCATION	 |String   | Department location.                  |
 
 # Sample Data Tables
- |          EMPLOYEE
+ |          EMPLOYEE               |
+ |---------------------------------|
  | ID | NAME	| SALARY | DEPT_ID |
  |---------------------------------|
  | 1  | Candice	| 4685	 | 1       |
